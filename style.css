@@ -14,6 +14,7 @@ body{
 
 .header{
     max-width: 640px; 
+    max-height: fit-content;
     margin: auto;
     padding: 2px;
     background: #013378;
@@ -35,6 +36,7 @@ span{
 
 .hero-section{
     max-width: 640px;
+    max-height: fit-content;
     margin: auto;
     background-image: url(./images/background.jpg);
     background-size: cover;
@@ -79,17 +81,18 @@ p{
   
   @keyframes pop {
     0%, 100% {
-      transform: scale(0.5); /* Start and end with smaller size */
-      opacity: 0; /* Start and end with opacity 0 */
+      transform: scale(0.5); 
+      opacity: 0; 
     }
     50% {
-      transform: scale(1.2); /* Peak scale during animation */
-      opacity: 1; /* Full opacity during animation */
+      transform: scale(1.2); 
+      opacity: 1; 
     }
   }
 
 .social-icon-container{
     max-width: 640px;
+    max-height: fit-content;
     margin: auto;
     background: #4e89e7;
     margin-top: 5px;
@@ -149,9 +152,9 @@ p{
 
 .footer{
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.1;
   color: rgb(21, 20, 20);
-  padding-top: 5px;
+  padding-top: 3px;
 }
 li{
   color: black;
@@ -170,6 +173,41 @@ li{
 .unsubscribe a{
   color: #013378;
   text-decoration: underline;
+}
+
+
+
+@media only screen and (min-width: 320px){
+  .typewriter-text{
+    font-size: 3rem;
+
+  }
+  p{
+    line-height: 1.8;
+    font-size: 12px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    letter-spacing: 1.1;
+    text-align: center;
+    
+}
+  .pop-image{
+    width: 150px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+ }
+
+}
+
+@media only screen and (min-width: 320px){
+  .pop-image{
+    width: 250px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+ }
+
 }
 
 
