@@ -12,14 +12,15 @@ body{
   background-color: #e7e7e9;
 }
 
-.header-container{
-    width: 700px;
+.header{
+    max-width: 640px; 
     margin: auto;
     padding: 2px;
     background: #013378;
     align-items: center;
     text-align: center;
 }
+
 .h1{
     text-align: center;
     align-items: center;
@@ -33,7 +34,7 @@ span{
 }
 
 .hero-section{
-    width: 700px;
+    max-width: 640px;
     margin: auto;
     background-image: url(./images/background.jpg);
     background-size: cover;
@@ -88,7 +89,7 @@ p{
   }
 
 .social-icon-container{
-    width: 700px;
+    max-width: 640px;
     margin: auto;
     background: #4e89e7;
     margin-top: 5px;
@@ -171,14 +172,4 @@ li{
   text-decoration: underline;
 }
 
-.sub-footer{
-  text-align: center;
-  font-weight: 200;
-  background: #acdcf4;
-  width: 800px;
-  margin: auto;
-  align-items: center;
-  text-align: center;
-  height: 3px;
-}
 
