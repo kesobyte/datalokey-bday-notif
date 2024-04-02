@@ -1,286 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HAPPY BIRTHDAY!</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BIRTHDAY</title>
-    <!-- <link rel="stylesheet" href="style.css"> -->
-
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <!--Icon-link-->
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
     <!--Font text-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-     rel="stylesheet">
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Styles-->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", Sans-serif;
+        list-style: none;
+        text-decoration: none;
+        color: #ffac01;
+      }
 
-    <body>
-        <!--Styles-->
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                font-family:  "Poppins", Sans-serif;
-                list-style: none;
-                text-decoration: none;
-                color: #FFAC01;
-            }
-            
-            body{
-              background-color: #e7e7e9;
-            }
-            
-            .header{
-                max-width: 640px; 
-                max-height: fit-content;
-                margin: auto;
-                padding: 2px;
-                background: #013378;
-                align-items: center;
-                text-align: center;
-            }
-            
-            .h1{
-                text-align: center;
-                align-items: center;
-                font-size: 2rem;
-                font-weight: 700;
-                line-height: 1.2;
-            }
-            
-            span{
-                color: #4e89e7;
-            }
-            
-            .hero-section{
-                max-width: 640px;
-                max-height: fit-content;
-                margin: auto;
-                background-image: url(./images/background.jpg);
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: center;
-                text-align: center;
-                background-size: 1080;
-                margin-top: 5px;
-            }
-            
-            .pop-image{
-                width: 200px;
-                height: 200px;
-            }
-            .typewriter-text{
-                font-weight: 900;
-                line-height: 1.1;
-                font-size: 5rem;
-                align-items: center;
-            }
-            
-            p{
-                line-height: 1.3;
-                font-size: 1rem;
-                padding-bottom: 20px;
-                margin-top: 30px;
-                letter-spacing: 1.1;
-                
-            }
-            
-            .container {
-                /* display: flex; */
-                justify-content: center;
-                align-items: center;
-                height: 40%;
-              }
-              
-              .pop-image {
-                animation: pop 1s ease infinite;
-                margin-top: 100px;
-              }
-              
-              @keyframes pop {
-                0%, 100% {
-                  transform: scale(0.5); 
-                  opacity: 0; 
-                }
-                50% {
-                  transform: scale(1.2); 
-                  opacity: 1; 
-                }
-              }
-            
-            .social-icon-container{
-                max-width: 640px;
-                max-height: fit-content;
-                margin: auto;
-                background: #4e89e7;
-                margin-top: 5px;
-               
-            }
-            .heading{
-                text-align: center;
-                color: #fbeaea;
-                padding-top: 15px;
-            }
-            .flex{
-                display: flex;
-                justify-content: center;
-                margin: 10px;
-                margin-bottom: 10px;
-            }
-            a{
-                padding: 15px;
-            }
-            .flex{
-               padding-bottom: 15px;
-            }
-            
-            i{
-              color: rgb(21, 20, 20);
-              font-size:20px;
-              background: #FFAC01;
-              padding: 2px;
-              border-radius: 2px;
-            }
-            i:hover{
-               color: #fbeaea;
-            }
-            
-            img{
-                width: 240px;
-                height: auto;
-            }
-            
-            h3{
-              text-align: center;
-            }
-            
-            .center{
-              text-align: center;
-              margin-top: 20px;
-              padding-bottom: 20px;
-              line-height: 1.2;
-              font-size: 12px;
-            }
-            
-            p{
-              line-height: 1.8;
-              size: 20px;
-              font-weight: 400;
-            }
-            
-            .footer{
-              font-weight: 400;
-              line-height: 1.1;
-              color: rgb(21, 20, 20);
-              padding-top: 3px;
-            }
-            li{
-              color: black;
-            }
-            
-            .container{
-              text-align: center;
-            }
-            
-            .unsubscribe{
-              text-align: center;
-              color: aliceblue;
-              color: #013378;
-              margin-top: 10px;
-            }
-            .unsubscribe a{
-              color: #013378;
-              text-decoration: underline;
-            }
-            
-            
-            
-            @media only screen and (min-width: 320px){
-              .typewriter-text{
-                font-size: 3rem;
-            
-              }
-              p{
-                line-height: 1.8;
-                font-size: 12px;
-                padding-bottom: 20px;
-                margin-top: 30px;
-                letter-spacing: 1.1;
-                text-align: center;
-                
-            }
-              .pop-image{
-                width: 150px;
-                height: auto;
-                align-items: center;
-                text-align: center;
-             }
-            
-            }
-            
-            @media only screen and (min-width: 320px){
-              .pop-image{
-                width: 250px;
-                height: auto;
-                align-items: center;
-                text-align: center;
-             }
-            
-            }
-            
-            
-            
+      body {
+        background-color: #e7e7e9;
+      }
 
-        </style>
+      .header {
+        max-width: 640px;
+        max-height: fit-content;
+        margin: auto;
+        padding: 2px;
+        background: #013378;
+        align-items: center;
+        text-align: center;
+      }
 
+      .h1 {
+        text-align: center;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.2;
+      }
 
+      span {
+        color: #4e89e7;
+      }
 
+      .main-container {
+        max-width: 640px;
+        max-height: fit-content;
+        margin: auto;
+        background-image: url(./images/background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+        background-size: 1080;
+        margin-top: 5px;
+      }
 
-    <!--Header-->
-    <div class="header">
-        <div class="header-img">
-            <img src="./images/logo.png">
-        </div>
-    </div>
+      .pop-image {
+        width: 200px;
+        height: 200px;
+      }
 
-    <!--hero-->
-    <div class="hero-section">
-        <img src="./images/box.png" class="pop-image">
-        <h1 class="typewriter-text">HAPPY<br><span>BIRTHDAY</span></h1>
+      .main-header {
+        font-weight: 900;
+        line-height: 1.1;
+        font-size: 70px;
+        align-items: center;
+      }
+
+      p {
+        line-height: 1.3;
+        font-size: 1rem;
+        padding-bottom: 20px;
+
+        letter-spacing: 1.1;
+      }
+
+      .container {
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        height: 40%;
+      }
+
+      .pop-image {
+        animation: pop 2.5s ease infinite;
+        margin-top: 20px;
+      }
+
+      @keyframes pop {
+        0%,
+        100% {
+          transform: scale(0.9);
+          opacity: 0.5;
+        }
+        50% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      .social-icon-container {
+        max-width: 640px;
+        max-height: fit-content;
+        margin: auto;
+        background: #4e89e7;
+        margin-top: 5px;
+      }
+
+      .heading {
+        text-align: center;
+        color: #fbeaea;
+        padding-top: 15px;
+      }
+      .flex {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        margin-bottom: 10px;
+      }
+      a {
+        padding: 15px;
+      }
+      .flex {
+        padding-bottom: 15px;
+      }
+
+      i {
+        color: rgb(21, 20, 20);
+        font-size: 20px;
+        background: #ffac01;
+        padding: 2px;
+        border-radius: 2px;
+      }
+      i:hover {
+        color: #fbeaea;
+      }
+
+      img {
+        width: auto;
+        height: 50px;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      .center {
+        text-align: center;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        line-height: 1.2;
+        font-size: 12px;
+      }
+
+      p {
+        line-height: 1.8;
+        size: 20px;
+        font-weight: 400;
+      }
+
+      .footer {
+        font-weight: 400;
+        line-height: 1.1;
+        color: rgb(21, 20, 20);
+        padding-top: 3px;
+      }
+
+      li {
+        color: black;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .unsubscribe {
+        text-align: center;
+        color: aliceblue;
+        color: #013378;
+        margin-top: 10px;
+      }
+      .unsubscribe a {
+        color: #013378;
+        text-decoration: underline;
+      }
+
+      @media only screen and (min-width: 320px) {
+        .typewriter-text {
+          font-size: 3rem;
+        }
+        p {
+          line-height: 1.8;
+          font-size: 12px;
+          padding-bottom: 20px;
+          margin-top: 30px;
+          letter-spacing: 1.1;
+          text-align: center;
+        }
+        .pop-image {
+          width: 150px;
+          height: auto;
+          align-items: center;
+          text-align: center;
+        }
+      }
+
+      @media only screen and (min-width: 320px) {
+        .pop-image {
+          width: 250px;
+          height: auto;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--Main Section-->
+    <section class="main-section">
+      <div class="main-container">
+        <img src="./images/box.png" class="pop-image" />
+        <h1 class="main-header">HAPPY<br /><span>BIRTHDAY!</span></h1>
         <div class="container">
-          
-            <p>Wishing you happiness and good health always!
-            <br><b>HAPPY BIRTHDAY</b> We hope you have a wonderful celebration
-            </p>
+          <p>
+            Wishing you happiness and good health always! <br />
+            May your celebration be filled with joy and delight.
+          </p>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <!--Footer-->
+    <!--Second Section-->
+
     <div class="social-icon-container">
-        <div class="heading">Visit to Our Social Media</div>
-        <div class="flex">
-            <li><a href="https://www.facebook.com/maxicarehealthcarecorp"><i class="bx bxl-facebook"></i></a></li>
-            <li><a href="https://juscall.com.ph/"><i class="bx bx-link-alt"></i></a></li>
-            <li><a href="https://juscall.com.ph/"><i class="bx bx-world"></i></a></li>
-        </div>
-      <!--conatcts-->
-       <h3 class="footer">Contact US</h3>
-        <div class="center">
-            <li>Landline:(+632) 8718 7975</li>
-            <li>Phone:(+632) 8718 7975</li>
-            <li>Address:Unit 1421 Eton Tower<br> Makati 128 Dela Rosa st.,<br>Ayala South, Makati City 1229 Philippines
-            </li>
+      <div class="header">
+        <img src="./images/logo.png" />
+      </div>
 
-              <!--Unsubscribe-->
+      <div class="heading">Visit to Our Social Media</div>
+      <div class="flex">
+        <li>
+          <a href="https://www.facebook.com/maxicarehealthcarecorp"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://juscall.com.ph/"><i class="bx bx-link-alt"></i></a>
+        </li>
+        <li>
+          <a href="https://juscall.com.ph/"><i class="bx bx-world"></i></a>
+        </li>
+      </div>
+
+      <!--conatcts-->
+      <h3 class="footer">Contact US</h3>
+      <div class="center">
+        <li>Landline:(+632) 8718 7975</li>
+        <li>Phone:(+632) 8718 7975</li>
+        <li>
+          Address:Unit 1421 Eton Tower<br />
+          Makati 128 Dela Rosa st.,<br />Ayala South, Makati City 1229
+          Philippines
+        </li>
+
+        <!--Unsubscribe-->
         <div class="unsubscribe">
-        <a href="emailto:johnjaymoanes009@gmail.com">Unsubscribe</a>
+          <a href="emailto:johnjaymoanes009@gmail.com">Unsubscribe</a>
+        </div>
       </div>
     </div>
- </div>
-</body>
-
+  </body>
 </html>
